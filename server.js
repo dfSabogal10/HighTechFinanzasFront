@@ -15,3 +15,4 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 app.listen(port);
+console.log('App deployed in http://localhost:8080')
